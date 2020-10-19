@@ -25,8 +25,11 @@ Pod::Spec.new do |spec|
   spec.swift_version      = "5.1"
 
   spec.ios.deployment_target     = '8.0'
+  spec.osx.deployment_target     = '10.12'
   spec.tvos.deployment_target    = '9.0'
   spec.watchos.deployment_target = '2.2'
+
+  spec.resources = "rswift"
 
   spec.dependency "R.swift.Library", "~> 5.2.0"
 
